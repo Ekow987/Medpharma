@@ -26,9 +26,9 @@ function createData(name, calories, fat, carbs, protein) {
 }
 
 const rows = [
-  createData('Albert', 'Ansah', 3.7, 67, 4.3),
-  createData('Bismark', 'Agyekum', 25.0, 51, 4.9),
-  createData('David', 'Baiden', 16.0, 24, 6.0),
+  createData('Albert', 'Ansah', 3.7,'Malaria', 'Taifa'),
+  createData('Bismark', 'Agyekum', 51, 'Liver Disease', 'Madina'),
+  createData('David', 'Baiden', 16.0, 'Cancer', 'Lapaz'),
 //   createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
 //   createData('Gingerbread', 356, 16.0, 49, 3.9),
 //   createData('Honeycomb', 408, 3.2, 87, 6.5),
