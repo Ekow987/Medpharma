@@ -5,7 +5,7 @@ import Consult from './components/consult';
 import Update from './components/update';
 import View from './components/view'
 import './components/bootstrap.min.css';
-// import MedContextProvider from './context/app.context';
+import MedContextProvider from './context/app.context';
 
 
 
@@ -13,13 +13,14 @@ function App() {
   return (
     <Router>
     <div className="App">
-    
+    <MedContextProvider>
     <Routes>
     <Route exact path="/"  element={<Login/>} />
     <Route exact path="/consult"  element={<Consult/>} />
      <Route exact path="/update" element={<Update/>} />
     <Route exact path="/view" element={<View/>} /> 
   </Routes>
+  </MedContextProvider>
   
     </div>
     </Router>

@@ -11,15 +11,15 @@ import Logout from './Logout'
    const Navigation=()=> {
     const currentTheme = useContext(Theme)[0];
     return (
-        <div >
+        <div>
          <Navbar collapseOnSelect expand="lg" bg={currentTheme} variant={currentTheme} className="mowa">
   <Navbar.Brand href="#home" id='med'> <img src={Img} className="img" alt=""></img>MEDPHARMA</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link> <Link to="/consult" id='med'>Consult</Link></Nav.Link>
-      <Nav.Link> <Link to="/update" id='med'>Update Record</Link></Nav.Link>
-      <Nav.Link> <Link to="/view" id='med'>View Record</Link></Nav.Link>
+      <Nav.Link> <Link to="/update" id='med'>Change Record</Link></Nav.Link>
+      <Nav.Link> <Link to="/view" id='med'>Consultation Details</Link></Nav.Link>
        
       {/* <Nav.Link> <Link to="/Pest" id='med'>Pest</Link></Nav.Link>  */}
     </Nav>

@@ -16,14 +16,17 @@ export default function MedContextProvider ({children}){
             url: "http://localhost:5000/opds/",
           });
     
-          dispatch(medActions.update(result.data));
+           dispatch(medActions.update(result.data));
+          console.log(result.data)
         }
     
         loadData();
       }, []);
-    return(
-     <MedContext.Provider value={{ state, dispatch }}>
-        {children}
-      </MedContext.Provider>
-    );
+
+      return (
+        <MedContext.Provider value={{ state, dispatch }}>
+          {children}
+        </MedContext.Provider>
+      );
+    
 }

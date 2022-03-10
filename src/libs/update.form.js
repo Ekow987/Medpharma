@@ -34,7 +34,7 @@ export default function Move(){
     }
     return (
         <div>
-            <h1 className="text">Update Consultation</h1>
+    <h1 className="text">Update Consultation</h1>
     <Form className='change'>
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label id='med'>Firstname</Form.Label>
@@ -68,7 +68,7 @@ export default function Move(){
    <br/>
    <br/>
   <Button variant="primary" type="submit" id='med' className="move" onClick={handleSubmit}> 
-    Submit
+    Update
   </Button>
 </Form>
         </div>

@@ -1,4 +1,4 @@
-import { medActions, medTypes } from "../actions/consult.actions";
+import {medTypes } from "../actions/consult.actions";
 
 export default function medReducer(state, action) {
   switch (action.type) {

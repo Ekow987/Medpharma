@@ -3,5 +3,5 @@ export const medTypes = {
 };
 
 export const medActions = {
-  update: (arr) => ({ type: medTypes .UPDATE_CONSULTS, payload: arr }),
+  update: (arr) => ({ type: medTypes.UPDATE_CONSULTS, payload: arr }),
 };
